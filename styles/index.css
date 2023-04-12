@@ -1,0 +1,65 @@
+.content {
+	margin-top: 0vh;
+}
+
+.filler {
+	max-height: 70vh;
+	min-height: 25vh;
+}
+
+.varer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.varer-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 75vw;
+}
+
+@media (max-width: 960px) {
+	.varer-content {
+		flex-direction: column;
+	}
+}
+
+.varer-content .vare {
+	/* border: 1px solid #333333; */
+	background-color: #fdfdfd;
+	color: #333333;
+	box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+	border-radius: 15px;
+	height: 52vh;
+	width: 33vh;
+
+	text-align: center;
+	align-content: center;
+	/* padding: 1vw; */
+	padding: 2vh;
+	margin: 3vh;
+	margin-bottom: 8vh;
+}
+
+.vare img {
+	height: 36vh;
+}
+
+.btn {
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+	color: #fbfbfd;
+	background-color: #007aff;
+	font-size: medium;
+	/* padding: 0.5vw; */
+	padding: 0.8vh;
+	text-decoration: none;
+	border-radius: 15px;
+	/* margin: 1vh; */
+}
+.btn:hover {
+	background-color: #0071e3;
+	/* cursor: pointer; */
+}
