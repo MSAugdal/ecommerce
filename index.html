@@ -5,14 +5,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet" />
-		<link rel="stylesheet" href="../styles/nav.css" />
-        <link rel="stylesheet" href="../styles/map.css">
+		<link rel="stylesheet" href="./styles/nav.css" />
+		<link rel="stylesheet" href="./styles/index.css" />
 		<script src="https://kit.fontawesome.com/f3a312835a.js" crossorigin="anonymous"></script>
 		<title>Apple</title>
 	</head>
+	<body>
 		<nav>
 			<div class="nav-content">
-				<a href="../pages/index.html" class="logo">
+				<a href="./index.html" class="logo">
 					<i class="fa-brands fa-apple fa-lg"></i>
 				</a>
 
@@ -26,6 +27,7 @@
 					<a href="./map.html">Location</a>
 					<a href="./cart.html">Cart</a>
 				</div>
+
 				<a href="./search.html">
 					<svg class="search-icon" viewBox="0 0 3.7041668 11.641667" height="44" width="14">
 						<g transform="matrix(0.97865947,0,0,0.97865947,-18.209185,-74.390797)">
@@ -38,27 +40,18 @@
 				</a>
 			</div>
 		</nav>
+
 		<main>
 			<div class="content">
 				<h1>
-					Where are we located?<br />
-					Find us on the map!
+					Welcome To Apple Store<br />
+					Buy Something.
 				</h1>
 			</div>
-			<div class="map-container">
-				<iframe
-				class="map"
-				width="600"
-				height="450"
-				style="border: 0"
-				loading="lazy"
-				allowfullscreen
-				referrerpolicy="no-referrer-when-downgrade"
-				src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC0TxIgQNsDxx39quyeaFKOf40h5Q9FTiE
-				&q=eplehuset+tromsø"
-				>
-            </iframe>
-        </div>
+			<div class="varer">
+				<div class="varer-content" id="varer">
+				</div>
+			</div>
 		</main>
 
 		<div class="filler">
@@ -86,10 +79,12 @@
 			};
 		</script>
 
+		<script src="../src/index.js"></script>
+
 <!-- Start of ChatBot (www.chatbot.com) code -->
 <script type="text/javascript">
     window.__be = window.__be || {};
-    window.__be.id = "64353bb8ea9fce0007bc82aa";
+    window.__be.id = "643536b5ea9fce0007bc7b9d";
     (function() {
         var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
         be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
@@ -98,4 +93,5 @@
 </script>
 <!-- End of ChatBot code -->
 	</body>
+
 </html>
