@@ -102,12 +102,12 @@ let generateTotal = () => {
 	if (totalSum === 0)
 		return (total.innerHTML = `
     <p>Nothing in your cart<p>
-    <a href="../pages/index.html" class="checkout-button btn" id="checkout-button">To store</a>
+    <a href="index.html" class="checkout-button btn" id="checkout-button">To store</a>
     
     `);
 	return (total.innerHTML = `
     <p>Total: $${totalSum}<p>
-    <a onClick="checkout()" href="../pages/success.html" class="checkout-button btn" id="checkout-button">Checkout</a>
+    <a onClick="checkout()" href="success.html" class="checkout-button btn" id="checkout-button">Checkout</a>
     `);
 };
 generateTotal();
